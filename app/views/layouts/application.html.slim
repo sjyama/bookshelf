@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title
+      | Bookshelf
+    = csrf_meta_tags
+    = csp_meta_tag
+    = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
+  body
+    / = search_form_for(@q, url: search_path) do |f|
+    /   p
+    /     / 検索フォームをここに書く
+    /     = f.text_field :name_cont, placeholder: '名前を入力...'
+    /   = f.submit
+
+    / <%= search_form_for @search, products_path do |f| %>
+    /   <%= f.text_field :name_cont, placeholder: '名前を入力...' %>
+    /   <%= f.submit ("検索する") %>
+    / <% end %>
+
+    = yield

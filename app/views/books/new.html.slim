@@ -1,0 +1,22 @@
+h1 書籍の新規登録
+
+= form_with model: @book, local: true do |f|
+  .form-group
+    = f.label :isbn_code
+    = f.text_field :isbn_code, class: 'form-control', id: 'book_isbn_code'
+  .form-group
+    = f.label :title
+    = f.text_field :title, class: 'form-control', id: 'book_title'
+  .form-group
+    = f.label :author
+    = f.text_field :author, class: 'form-control', id: 'book_author'
+  .form-group
+    = f.label :publisher
+    = f.text_field :publisher, class: 'form-control', id: 'book_publisher'
+  .form-group
+    = f.label :shelf_id
+    = f.text_field :shelf_id, class: 'form-control', id: 'book_shelf_id'
+  = f.submit nil, class: 'btn btn-primary'
+
+.nav.justify-content-end
+  = link_to '一覧に戻る', books_path, class: 'nav-link'

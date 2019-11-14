@@ -1,0 +1,47 @@
+No,title,author,publisher,出版年,isbn_code
+1,アジャイルな見積りと計画づくり ~価値あるソフトウェアを育てる概念と技法~,Mike Cohn,毎日コミュニケーションズ ,2009年1月29日,4839924023
+2,サウンドエフェクトのプログラミング―Cによる音の加工と音源合成,小坂直敏,オーム社 ,2012年10月1日,4274068943
+3,Unix考古学 Truth of the Legend,藤田昭人,KADOKAWA ,2016年4月28日,4048930508
+4,Excelでできる最適化の実践らくらく読本―ソルバーで自由自在に解く,苅田正雄,同友館 ,2003年6月,4496035804
+5,戦略的データマイニングアスクルの事例で学ぶ,池尾恭一,日経BP ,2008年4月24日,4822246647
+6,Blog Hacksプロが教えるテクニック&ツール100選,宮川達彦,オライリー・ジャパン ,2004年8月7日,4873111749
+7,システムテスト自動化 標準ガイド (CodeZine BOOKS),Mark Fewster,翔泳社 ,2014年12月16日,4798139211
+8,情報通信ネットワークマネジメント―スタンダードの活用法,ユーレス・ブラック,電気通信協会 ,1999年1月,4885491088
+9,多変量統計分析,菅民郎,現代数学社 ,1996年10月,4768702368
+10,UNIXプログラミング環境 (海外ブックス),Brian W.Kernighan,アスキー ,1985年9月1日,4871483517
+11,Ship It! ソフトウェアプロジェクト 成功のための達人式ガイドブック,Jared Richardson,オーム社 ,2006年8月26日,4274066568
+12,SNMPバイブル―インターネット管理への実践ガイド (Professional Computing Series),William Stallings,アジソンウェスレイパブリッシャーズジャパン ,1994年11月1日,4795296510
+13,ワインバーグのシステム行動法 ソフトウェア文化を創る (3),G.M.ワインバーグ,共立出版 ,1996年6月5日,4320027086
+14,プログラミング言語C++ 第4版,ビャーネ・ストラウストラップ,SBクリエイティブ ,2015年2月28日,4797375957
+15,HTML5 Canvas,Steve Fulton,オライリージャパン ,2012年1月21日,4873115272
+16,CSS3開発者ガイド 第2版モダンWebデザインのスタイル設計,Peter Gasston,オライリージャパン ,2015年7月3日,4873117259
+17,HTML5クックブック,Christopher Schmitt,オライリージャパン ,2012年6月22日,4873115477
+18,JavaScriptデザインパターン,Addy Osmani,オライリージャパン ,2013年5月25日,487311618X
+19,初めてのJavaScript 第3版ES2015以降の最新ウェブ開発,Ethan Brown,オライリージャパン ,2017年1月20日,4873117836
+20,テスタブルJavaScript,Mark Ethan Trostler,オライリージャパン ,2013年9月21日,487311635X
+21,ステートフルJavaScriptMVCアーキテクチャに基づくWebアプリケーションの状態管理,Alex MacCaw,オライリージャパン ,2012年6月9日,487311554X
+22,JavaScriptクックブック,Shelley Powers,オライリージャパン ,2011年4月23日,4873114942
+23,JavaScriptグラフィックスゲーム・スマートフォン・ウェブで使う最新テクニック,Raffaele Cecco,オライリージャパン ,2012年3月16日,4873115280
+24,ハイパフォーマンスJavaScript,Nicholas C. Zakas,オライリージャパン ,2011年3月20日,487311490X
+25,メンテナブルJavaScript読みやすく保守しやすいJavaScriptコードのための作法,Nicholas C. Zakas,オライリージャパン  ,2013年3月6日,4873116104
+26,JavaScriptパターン優れたアプリケーションのための作法,Stoyan Stefanov,オライリージャパン  ,2011年2月16日,4873114888
+27,JavaScriptによるデータビジュアライゼーション入門,Stephen A. Thomas,オライリージャパン  ,2015年10月21日,4873117461
+28,プログラミングPHP 第3版,Kevin Tatroe,オライリージャパン  ,2014年3月25日,4873116686
+29,初めてのPHP & MySQL 第2版,Michele E. Davis,オライリージャパン  ,2008年5月26日,4873113652
+30,Handmade Electronic Music手作り電子回路から生まれる音と音楽 (Make: PROJECTS),Nicolas Collins,オライリージャパン  ,2013年1月26日,4873115957
+31,発酵の技法世界の発酵食品と発酵文化の探求 (Make:Japan Books),Sandor Ellix Katz,オライリージャパン  ,2016年4月23日,4873117631
+32,Making Things TalkArduinoで作る「会話」するモノたち (Make:PROJECTS),Tom Igoe,オライリージャパン  ,2008年11月17日,4873113849
+33,XBeeで作るワイヤレスセンサーネットワーク (Make: PROJECTS),Robert Faludi,オライリージャパン  ,2011年12月9日,4873115302
+34,Raspberry Pi クックブック 第2版 (Make:PROJECTS),Simon Monk,オライリージャパン  ,2017年8月25日,4873118115
+35,Making Things SeeKinectとProcessingではじめる3Dプログラミング (Make: PROJECTS),Greg Borenstein,オライリージャパン  ,2013年3月26日,4873116112
+36,Make: Analog Synthesizers (Make: PROJECTS),Ray Wilson,オライリージャパン  ,2017年3月18日,4873117518
+37,Making Things Move動くモノを作るためのメカニズムと材料の基本 (Make: PROJECTS),Dustyn Roberts,オライリージャパン  ,2012年3月24日,4873115361
+38,Prototyping Lab 第2版「作りながら考える」ためのArduino実践レシピ (Make: PROJECTS),小林茂,オライリージャパン  ,2017年1月19日,4873117895
+39,Make: Electronics作ってわかる電気と電子回路の基礎 ((Make:PROJECTS)),Charles Platt,オライリージャパン  ,2010年11月29日,4873114772
+40,Make: Technology on Your Time Volume 12,オライリー・ジャパン,オライリージャパン  ,2012年11月24日,4873115566
+41,Make: Technology on Your Time Volume 11,オライリー・ジャパン,オライリージャパン  ,2011年4月25日,4873114918
+42,Make: Technology on Your Time Volume 10,オライリー・ジャパン,オライリージャパン  ,2010年8月26日,4873114578
+43,Make: Technology on Your Time Volume 09,オライリー・ジャパン,オライリージャパン  ,2010年1月27日,4873114330
+44,Make: Technology on Your Time Volume 08,オライリー・ジャパン,オライリージャパン  ,2009年9月28日,4873114217
+45,Make: Technology on Your Time Volume 07,オライリー・ジャパン,オライリージャパン  ,2009年7月10日,487311411X
+46,Make: Technology on Your Time Volume 06,オライリー・ジャパン,オライリージャパン  ,2009年3月27日,4873114012

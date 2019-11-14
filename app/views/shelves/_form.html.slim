@@ -1,0 +1,15 @@
+= form_for @shelf do |f|
+  - if @shelf.errors.any?
+    #error_explanation
+      h2 = "#{pluralize(@shelf.errors.count, "error")} prohibited this shelf from being saved:"
+      ul
+        - @shelf.errors.full_messages.each do |message|
+          li = message
+
+  .field
+    = f.label :shelf_name
+    = f.text_field :shelf_name
+  .field
+    = f.label :shelf_note
+    = f.text_field :shelf_note
+  .actions = f.submit

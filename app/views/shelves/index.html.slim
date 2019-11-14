@@ -1,0 +1,27 @@
+h1 本棚の一覧
+
+table
+  thead
+    tr
+      th id
+      th Shelf name
+      th Shelf note
+      th
+      th
+      th
+
+  tbody
+    - @shelves.each do |shelf|
+      tr
+        td = shelf.id
+        td = shelf.shelf_name
+        td = shelf.shelf_note
+        td = link_to 'Show', shelf
+        td = link_to 'Edit', edit_shelf_path(shelf)
+        td = link_to 'Destroy', shelf, data: { confirm: 'Are you sure?' }, method: :delete
+
+br
+table
+  tr
+    td= link_to 'New Shelf', new_shelf_path
+    td= link_to '書籍情報', books_path, class: 'btn btn-primary'

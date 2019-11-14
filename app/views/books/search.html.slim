@@ -1,0 +1,13 @@
+h1
+  | 検索結果
+table
+  - @books.each do |book|
+    tr
+      td
+        = book.title
+      td
+        = book.author
+      td
+        = book.publisher
+
+= link_to 'トップ', root_path

@@ -1,0 +1,23 @@
+ja:
+  activerecord:
+    models:
+      book: しょせき
+    attributes:
+      book:
+        isbn_code: あいえすびーえぬコード
+        title: たいとる
+        author: ちょしゃ
+        publisher: しゅっぱんしゃ
+    helpers:
+      select:
+        prompt: 選択してください
+      submit:
+        create: 登録する
+        submit: 保存する
+        update: 更新する
+    errors:
+      messages:
+        record_invalid: "バリデーションに失敗しました：%{errors}"
+        restrict_dependent_destroy:
+          has_one: "%{record}が存在しているので削除できません"
+          has_many: "%{record}が存在しているので削除できません"
