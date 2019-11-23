@@ -15,8 +15,10 @@ h1 書籍の新規登録
     = f.text_field :publisher, class: 'form-control', id: 'book_publisher'
   .form-group
     = f.label :shelf_id
-    = f.text_field :shelf_id, class: 'form-control', id: 'book_shelf_id'
+    / = f.text_field :shelf_id, class: 'form-control', id: 'book_shelf_id'
+    = f.collection_select :shelf_id, Shelf.all, :id, :shelf_name
   = f.submit nil, class: 'btn btn-primary'
 
 .nav.justify-content-end
+  br
   = link_to '一覧に戻る', books_path, class: 'nav-link'

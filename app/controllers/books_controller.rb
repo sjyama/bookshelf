@@ -5,6 +5,8 @@ class BooksController < ApplicationController
         @q = Book.ransack(params[:q])
         # @books = @q.result
         @books = @q.result.page(params[:page])
+        # @bshelf = @books.shelf.shelf_name
+        # @books.shelf_id = "aaa"
         # @books = Book.page(params[:page]).per(20)
     end
 

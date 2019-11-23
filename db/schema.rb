@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_11_11_015132) do
+ActiveRecord::Schema.define(version: 2019_11_18_235012) do
 
   create_table "books", force: :cascade do |t|
     t.integer "isbn_code"
@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2019_11_11_015132) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.integer "shelf_id"
+    t.index ["shelf_id"], name: "index_books_on_shelf_id"
   end
 
   create_table "shelves", force: :cascade do |t|
@@ -29,4 +30,5 @@ ActiveRecord::Schema.define(version: 2019_11_11_015132) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "books", "shelves"
 end

@@ -17,5 +17,6 @@
     = f.text_field :publisher
   .field
     = f.label :book_shelf_id
-    = f.text_field :shelf_id
+    / = f.text_field :shelf_id
+    = f.collection_select :shelf_id, Shelf.all, :id, :shelf_name
   .actions = f.submit
