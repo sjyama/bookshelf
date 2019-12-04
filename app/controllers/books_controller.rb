@@ -38,8 +38,12 @@ class BooksController < ApplicationController
 
     def create
         book = Book.new(book_params)
-        book.save!
-        redirect_to books_path, notice: "書籍「#{book.title}」を登録しました。"
+        if book.save!
+            redirect_to books_path, notice: "書籍「#{book.title}」を登録しました。"
+        else
+            flash.now[:danger] = 'bookの登録に失敗したぜよ'
+            render :new
+        end
     end
 
     def destroy
